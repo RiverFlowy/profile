@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    color: black;
+    background-color: white;
+    background-image: url(lighttheme.png);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+#p1 {
+    font: 4em;
+    padding: 0.5em;
+    text-align: center;
+    text-indent: 2em;
+    float: left
+}
+#img1 {
+    text-indent: 1em;
+    margin: 0.37em;
+    float: left;
+    border-radius: 50%
+}
+#menubar {
+    margin: 2em;
+    padding: 0.5em;
+    color: black;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    overflow: hidden;
+    border-radius: 10em;
+}
