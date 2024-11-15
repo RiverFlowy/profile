@@ -19,18 +19,20 @@
                 <p class="p1">プロジェクト</p>
             </div>
             <article id="article">
-                <nav>
-                <a href="#h1-1">Flowy(RiverFlowy) - プログラミング学習者</a>
-                <a href="#h2-1">自己紹介</a>
-                <a href="#h2-2">興味のある分野</a>
-                <a href="#h3-1">ウェブアプリ開発</a>
-                <a href="#h3-2">データ分析</a>
-                <a href="#h2-3">スキル</a>
-                <a href="#h3-3">プログラミング言語</a>
-                <a href="#h3-4">フレームワーク & ライブラリ</a>
-                <a href="#h3-5">使用ツール</a>
-                <a href="#h2-3">最近のプロジェクト</a>
-                <a href="#h3-6">ウェブサイト制作</a>
+                <nav id="nav">
+                    <ul>
+                        <li style="list-style-position: outside;"><a href="#h1-1">Flowy(RiverFlowy) - プログラミング学習者</a></li>
+                        <li style="list-style-position: inside;"><a href="#h2-1">自己紹介</a></li>
+                        <li style="list-style-position: outside;"><a href="#h2-2">興味のある分野</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-1">ウェブアプリ開発</a></li>
+                        <li style="list-style-position: outside;"><a href="#h2-3">スキル</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-2">データ分析</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-4">フレームワーク & ライブラリ</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-3">プログラミング言語</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-5">使用ツール</a></li>
+                        <li style="list-style-position: outside;"><a href="#h2-3">最近のプロジェクト</a></li>
+                        <li style="list-style-position: inside;"><a href="#h3-6">ウェブサイト制作</a></li>
+                    </ul>
                 </nav>
                 <main id="main">
                     <header><h1 id="h1-1">Flowy(RiverFlowy) - プログラミング学習者</h1></header>
@@ -98,15 +100,16 @@
             <style>
             body {
                 margin: 0;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+                font-weight: normal;
                 color: black;
                 background-color: white;
                 background-image: url(lighttheme.png);
                 background-size: cover;
                 backdrop-filter: blur(5px);
             }
-            h1 {
-                font-size: 2em;
-            }
+
             .p1 {
                 font: 4em;
                 padding: 0.5em;
@@ -120,6 +123,7 @@
                 float: left;
                 border-radius: 50%
             }
+
             #a {
                 margin: 0;
                 padding: 0.3em;
@@ -136,17 +140,28 @@
                 border-radius: 10em;
             }
             #article {
-                margin: 4em;
+                margin: 3em;
                 padding: 1em;
                 background-color: hsla(0, 0%, 100%, 0.5);
                 border-radius: 1em;
             }
             #main {
                 margin: 2em;
-                margin-left: 25%;
+                margin-left: 25em;
                 padding: 3em;
                 background-color: hsla(0, 0%, 100%, 0.5);
                 border-radius: 1em;
+            }
+            #nav {
+                position: sticky;
+                top: 15em;
+                left: 5em;
+                right: 5em;
+                padding: 1em;
+                background-color: hsla(0, 0%, 100%, 0.5);
+                border-radius: 1em;
+                float: left;
+                clear: left;
             }
             </style>
     </html>
