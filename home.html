@@ -6,7 +6,7 @@
             <meta name="discription" content="RiverFlowyのプロフィールサイトです。">
             <meta name="author" content="Flowy(RiverFlowy)">
             <meta name="keywords" content="Flowy's profile,River Flowy">
-            <base href="https://riverflowy.github.io/profile/">
+            <base href="https://riverflowy.github.io/profile/home.html">
             <link rel="icon" href="logo.png" sizes="16x16" type="image/png">
             <link rel="stylesheet" href="lighttheme_style.css">
             <script src="script.js"></script>
@@ -33,11 +33,13 @@
                         また、現在プログラミングを学習中なので、もし何かおかしなところがあっても、温かい目で見守っていただけると嬉しいです。
                     </p>
                     <h2>最近公開したプロジェクト</h2>
+                    <div id="div1">
                     <h3>プロフィールサイト</h3>
                     <p>
-                        最近のモダンなデザインにして作ってみました。
-                        →プロジェクトを見る
+                        <strong>最近のモダンなデザインにして作ってみました。
+                        <br><a id="a1" href="https://github.com/RiverFlowy/profile/">→プロジェクトを見る</a></strong>
                     </p>
+                    </div>
                     <h2>このサイトの目標</h2>
                     <p>
                         私の目的は、プロジェクトを通じて新しいスキルを学び、技術の幅を広げることです。
@@ -99,10 +101,19 @@
             }
             #main {
                 margin: 1em;
-                margin-left: 26em;
                 padding: 3em;
                 background-color: hsla(0, 0%, 100%, 0.5);
                 border-radius: 1em;
+            }
+            #div1 {
+                margin: 1em;
+                margin-right: 80em;
+                padding: 3em;
+                border-radius: 1em;
+                border-style: solid;
+                border-width: 0.1em;
+                border-color: rgba(0, 0, 0, 0.3);
+                box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
             }
             a {
                 color: black;
